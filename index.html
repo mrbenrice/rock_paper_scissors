@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    <canvas id="c"></canvas>
     <head>
     <meta charset="UTF-8">
-    <title>Rock, Paper, Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../rock_paper_scissors/style.css">
+    <div class="headcontainer">
+        <a href="http://www.mrbenrice.com" class="a port">Back to Portfolio</a>
+    </div>
+    </div>
     </head>
     
     <body>
-        <button onclick="playRound()" class="start">Start Game!</button>
-        <button onclick="clickRock()" class="btn rock">rock</button>
-        <button onclick="clickPaper()" class="btn paper">paper</button>
-        <button onclick="clickScissors()" class="btn scissors">scissors</button>
-        
-    <script src="../rock_paper_scissors/rpsnew.js"></script>
+        <div class="bodcont">
+            <div class="container">
+                <h1><title>Rock, Paper, Scissors!</title>Rock, Paper, Scissors!</h1>
+                <button onclick="game()" id="startb" class="start">Start Game!</button>
+                <div class="choicecontainer">
+                    <button id = "btnr" class="rock">rock</button> 
+                    <button id = "btnp" class="paper">paper </button>
+                    <button id = "btns" class="scissors">scissors </button>
+                </div>
+                <div class="score"></div>
+            </div>
+        </div>
     </body>
+    <script src="../rock_paper_scissors/rpsnew.js"></script>
+    <footer>
+        <div class="footercont">
+            <div class="odin">Made with tutoring from The Odin Project</div>
+            <div class="cpr">Copyright &copy; Ben Rice Web Design</div>
+        </div>
+    </footer>
 </html>

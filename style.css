@@ -1,0 +1,120 @@
+@font-face {
+    font-family: RubikGlitch;
+    src: url('./RubikGlitch-Regular.ttf');
+}
+* {
+    margin: 0;
+}
+.headcontainer {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #f4427d;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.a.port {
+    text-decoration: none;
+    color: #f4427d;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+#c {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin: 0;
+}
+.bodycont {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+}
+
+.container {
+    color: #f4427d;
+    text-shadow: 2px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-family: RubikGlitch;
+}
+.start {
+    font-weight: bolder;
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #f4427d;
+    background-color: black;
+    color: #f4427d;
+}
+
+.start:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.choicecontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#btnr,
+#btnp,
+#btns {
+    margin: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: #f4427d;
+    background-color: black;
+    color: #f4427d;
+}
+
+#btnr:hover,
+#btnp:hover,
+#btns:hover {
+    transition: 0.1s;
+    transform: scale(1.2);
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid #f4427d;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-inline: 20px;
+    text-shadow: 3px 3px 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #f4427d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footercont {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.odin {
+    width: 30%;
+    padding-left: 20px;
+}
+.cpr {
+    display: flex;
+    align-items:center;
+    padding-right: 20px;
+}
